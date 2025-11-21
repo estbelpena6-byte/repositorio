@@ -34,7 +34,7 @@ for x in cards:
 for x in cards:
     maskedCard = ""
     if x.startswith("6"):
-        maskedCard = x[:4] + "x"*6 + x[6]
+        maskedCard = x[:4] + "x"*6 + x[-6]
     else:
         continue
     print(maskedCard)    
