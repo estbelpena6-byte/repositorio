@@ -20,7 +20,7 @@ def mostrar_menu():
     print("\n----- MENÚ DEL RESTAURANTE -----")
     for producto, precio in menu:
         print(f"{producto} - RD{precio}")
-        print("0. Salir y ver reporte")
+    print("0. Salir y ver reporte")
     print("------------------------------")
 
 def registrar_ventas(opcion):
