@@ -1,0 +1,1 @@
+f = ("myfile.txt", "x")
