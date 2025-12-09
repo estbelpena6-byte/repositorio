@@ -1,5 +1,5 @@
-numero1 = int(input("agrega el primer número:"))
-numero2 = int(input("agrega el segundo número:"))
+numero1 = float(input("agrega el primer número:"))
+numero2 = float(input("agrega el segundo número:"))
 operacion = input("elige una de estas operaciones (+, -, *, /)")
 
 if operacion == "+":
