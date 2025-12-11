@@ -1,12 +1,24 @@
-importar sistema
+def opcion_1():
+    print("haz elegido la opcion uno, suma")
 
-este_python = sys.version_info[:2]
-versión mínima = (3, 9)
-si este_python < min_version:
-    partes_del_mensaje = [
-        "Este script no funciona en Python {}.{}.".format(*this_python),
-        "La versión mínima compatible de Python es {}.{}.".format(*min_version),
-        "Utilice https://bootstrap.pypa.io/pip/{}.{}/get-pip.py en su lugar".format(*this_python),
-    ]
-    imprimir("ERROR: " + " ".join(partes_del_mensaje))
-    sys.exit(1)
+def opcion_2():
+    print("haz elegido la opcion dos, resta")
+
+while True:
+    print("---menu_principal---")
+    print("1. suma")
+    print("2. resta")
+    print("3. salir")
+             
+    eleccion = input("ingresa tu elección (1, 2 o 3):")
+
+    if eleccion == "1":
+        opcion_1()
+    elif eleccion == "2":
+        opcion_2()
+    elif eleccion == "3":
+        print("saliste del programa")
+        break
+
+    else:
+        print("opción inválida, por favor elige una opción del menú")
